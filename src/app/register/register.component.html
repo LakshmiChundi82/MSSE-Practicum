@@ -16,10 +16,16 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class=" col-md-offset-1 col-md-4">
+        <label for="number"> Contact Number</label>
+        <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    </div>
+  </div>
   
   <div class="row">
     <div class=" col-md-offset-1 col-md-4">
-        <label for="profileImage">Upload Image</label>
+        <label for="profileImage">Upload File</label>
         <input formControlName="profileImage" class="form-control" type="file" (change)="selectFile($event)"> 
     </div>
   </div>
